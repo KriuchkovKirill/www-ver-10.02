@@ -1,0 +1,1118 @@
+/* sofia-sans-condensed-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Sofia Sans Condensed';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/sofia-sans-condensed-v1-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('../fonts/sofia-sans-condensed-v1-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* sofia-sans-condensed-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Sofia Sans Condensed';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/sofia-sans-condensed-v1-latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('../fonts/sofia-sans-condensed-v1-latin-600.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+
+
+html{
+    height: 100%;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #000000;
+  background-size: cover;
+  justify-content: center;
+  
+  }
+  header.site-header{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #345a71;
+    color: #fff;
+    
+} 
+.container-free {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+
+}
+.site-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+  margin: 0;
+}
+.main{
+  
+  
+box-sizing: border-box;
+
+width: 626px;
+height: 469.5px;
+display: flex;
+flex-flow: row;
+
+
+background: url(../img/svg/backgrond.svg);
+border: 0.5px solid #FFFFFF;
+border-radius: 14px;
+
+
+
+}
+
+
+
+/* left part of body start from here*/
+
+.leftpart {
+  display: flex;
+  flex-flow: column;
+  width: 42%;
+  height: 100%;
+
+ }
+.logo3{
+  display:none;
+  width: 246px;
+  height: 19.06px;
+}
+.circlewrapper{
+  padding-top: 36.49px;
+  padding-left:78.23px;
+
+}
+ .circle{
+  
+  
+  width: 109.2px;
+  height: 109.36px;
+  background-image: url(../img/svg/circle.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+    }
+.lng-name {
+  
+  width: 172.27px;
+  height: 39.98px;
+  padding-top:18.6px; 
+  padding-left:46.46px;
+  
+  font-family: 'Sofia Sans Condensed';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14.352px;
+  line-height: 17px;
+  
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.lng-Rank {
+  width: 172.27px;
+  height: 15.29px;
+  padding-top: 5.87px; 
+  padding-left:46.46px;
+  
+  font-family: 'Sofia Sans Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8.23135px;
+  line-height: 10px;
+  align-items: center;
+  text-align: center;
+ 
+   color: #FFFFFF;
+}
+.leftlines{
+
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  row-gap: 32.4px;
+  
+  padding-top: 14.42px;  
+  padding-left: 42px;
+  
+
+}
+.leftline{
+  
+  background-color:#FFFFFF ;
+	border: 0.305664px solid #FFFFFF;
+  width: 181px;
+  max-height: 0px;
+  
+}
+.phone {
+ 
+  width: 145.81px;
+  height: 15.29px;
+  padding: 10.82px 10.97px 11.69px 7.02px;
+  
+  font-family: 'Sofia Sans Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8.23135px;
+  line-height: 10px;
+  display: flex;
+  
+  align-items: center;
+  
+  color: #FFFFFF;
+  
+}
+.phone_icon{
+  
+  display: flex;
+  align-items: center;
+  padding: 0px 10.97px 0px 0px;
+  
+}
+.h2 {
+  /*phoneicon settings*/
+  width: 10.43px;
+  height: 10.49px;
+  display: flex;
+  align-items: center;
+  
+
+  background-image: url(../img/svg/phone_icon.svg);
+}
+.mail { 
+  
+  width: 145.81px;
+  height: 15.29px;
+  padding: 10.82px 10.97px 11.69px 7.02px;
+  
+  font-family: 'Sofia Sans Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8.23135px;
+  line-height: 10px;
+  display: flex;
+  align-items: center;
+  
+  color: white;
+}
+.mail_icon {
+  
+  display: flex;
+  align-items: center;
+  padding: 0px 10.97px 0px 0px;
+
+}
+.h3 {
+  /* parameters of mail icon*/ 
+  width: 11.13px;
+  height: 8.51px;
+  
+  align-items: center;
+  
+
+  background-image: url(../img/svg/mail_icon.svg);
+  
+}
+.lng-address {
+  
+  width: 172.27px;
+  height: 15.29px;
+  padding: 11px 10.97px 11.69px 7.02px;
+  position: relative;
+  left: 21.68px;
+  top: -17px;
+
+  font-family: 'Sofia Sans Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8.23135px;
+  line-height: 10px;
+  display: flex;
+  align-items: center;
+  
+
+  color: white;
+}
+.address_icon {
+  
+  display: flex;
+  align-items: center;
+  padding: 10.82px 10.97px 11.69px 7.02px;
+
+}
+.h4{
+  /* parameters of address icon*/  
+  width: 16.72px;
+  height: 15.99px;
+  position: relative;
+  top: 7px;
+  left: 4.02px;
+  align-items: center;
+  background-image: url(../img/svg/address_icon.svg);
+}
+
+
+
+
+.social_buttons {
+width: 180px;
+
+display: grid;
+grid-template-columns: repeat(6, 1fr);
+grid-column-gap:12px;
+padding: 18px 403px 0px 43px;
+
+}
+.social_button {
+  grid-column: span 1;
+}
+
+.social_button-thumb{
+  width: 20px;
+  height: 20px;
+}
+ 
+ .button {    
+  padding: 18.31px 41.57px 37.93px 41.57px;  
+ }
+ .size_button{
+  width: 180.95px;
+  height: 38.26px;
+  background: linear-gradient(0deg, #BB559D, #BB559D), #000000;  
+ }
+ .lng-text_button{
+  padding: 12.90px 11.56px 13.95px 11.56px;
+  font-family: 'Sofia Sans Condensed';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12.5936px;
+  line-height: 15px;
+  width: 157.84px;
+  height: 8.37px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+ }
+
+/*left part of body finished here*/
+
+.linewrapper{
+  padding-top: 31.79px;
+}
+ .line1 {
+   width: 0px;
+  height: 399.81px;
+    
+  border: 0.581751px solid #FFFFFF;
+ }
+
+ /* right part of body start from here*/
+
+ .rightpart{  
+    display: flex;
+    flex-flow: column;
+    width: 58%;
+    max-width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+ }    
+  .lng-logo{
+    width: 221.72px;
+    height: 64.09px;
+    padding-left: 67.25px;
+    padding-top: 51.96px;   
+    
+  } 
+.rectangle2 {
+   position: relative;
+   top: -122.41px;
+   left: 41.57px;
+  width: 278.77px;
+  height: 197.46px;
+  
+  
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(9.91159px);
+  /* Note: backdrop-filter has minimal browser support */
+  
+  border-radius: 8.25966px;
+   }
+   .rectangle_mobile{
+    display: none;
+   }
+   .line{  
+    background-color:#FFFFFF ;
+    border: 0.305664px solid #FFFFFF;
+    width: 237.2px;
+    max-height: 0px;    
+  }
+  .lines{  
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    row-gap: 32.4px;
+    padding: 34.85px 20.79px;
+    }
+
+
+.shine{   
+  position: relative;
+  top: 218.4px;
+  left: 58.35px;   
+  height: 180.33px;
+  width: 316.23px;
+  border-radius: 0px;
+  background-image:url(../img/svg/logo2.svg);
+  background-repeat: no-repeat;
+  
+}
+.shine2{
+  display: none;
+}
+.website_wrapper{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding: 12px 0px 14px 0px ;
+}
+.lng-website{ 
+     
+  width: 118.6px;
+  height: 30px;
+  
+  font-family: 'Sofia Sans Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8.23135px;
+  line-height: 10px; 
+
+  color: #FFFFFF;
+}
+.lng-website1{ 
+     
+  width: 118.6px;
+  height: 30px;
+  
+  font-family: 'Sofia Sans Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8.23135px;
+  line-height: 10px; 
+
+  color: #FFFFFF;
+}
+.website_text{  
+  width: 118.6px;
+  height: 30px;
+  
+  font-family: 'Sofia Sans Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8.23135px;
+  line-height: 10px;
+  text-align: end;  
+
+  color: #FFFFFF;
+}
+
+.telephone_wrapper{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding: 12px 0px 14px 0px ;
+
+}
+.lng-telephone{
+  
+  width: 118.6px;
+  height: 30px;
+  
+  font-family: 'Sofia Sans Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8.23135px;
+  line-height: 10px;
+  display: flex;
+  align-items: flex-start;
+
+  color: #FFFFFF;
+}
+.lng-telephone1{
+  
+  width: 118.6px;
+  height: 30px;
+  
+  font-family: 'Sofia Sans Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8.23135px;
+  line-height: 10px;
+  display: flex;
+  align-items: flex-start;
+
+  color: #FFFFFF;
+}
+.telephone_text{  
+  width: 118.6px;
+  height: 30px;
+  
+  font-family: 'Sofia Sans Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8.23135px;
+  line-height: 10px;
+  text-align: end;  
+
+  color: #FFFFFF;
+}
+.email_wrapper{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding: 12px 0px 14px 0px ;
+
+}
+.email{  
+  width: 118.6px;
+  height: 30px;
+  
+  font-family: 'Sofia Sans Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8.23135px;
+  line-height: 10px;
+  display: flex;
+  align-items: flex-start;
+
+  color: #FFFFFF;
+}
+.email_text{  
+  width: 118.6px;
+  height: 30px;
+  
+  font-family: 'Sofia Sans Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8.23135px;
+  line-height: 10px;
+  text-align: end;  
+
+  color: #FFFFFF;
+}
+.address_wrapper{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding: 12px 0px 14px 0px ;
+
+}
+.lng-second_address{  
+  width: 118.6px;
+  height: 30px;
+  
+  font-family: 'Sofia Sans Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8.23135px;
+  line-height: 10px;
+  display: flex;
+  align-items: flex-start;
+
+  color: #FFFFFF;
+}
+
+.lng-second_address_text{  
+  width: 118.6px;
+  height: 30px;
+  
+  font-family: 'Sofia Sans Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8.23135px;
+  line-height: 10px;
+  text-align: end;  
+
+  color: #FFFFFF;
+}
+.lng-second_address1{  
+  width: 118.6px;
+  height: 30px;
+  
+  font-family: 'Sofia Sans Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8.23135px;
+  line-height: 10px;
+  display: flex;
+  align-items: flex-start;
+
+  color: #FFFFFF;
+}
+
+.lng-second_address_text1{  
+  width: 118.6px;
+  height: 30px;
+  
+  font-family: 'Sofia Sans Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8.23135px;
+  line-height: 10px;
+  text-align: end;  
+
+  color: #FFFFFF;
+}
+/*right part of body finished here*/
+
+
+
+@media (max-width:626px) and (max-height:1090px) {
+  
+  .main{
+    flex-flow: column;
+    width:345px;
+    max-width: 100%; 
+    
+    height: 1090px;
+    max-height: 100%;
+    background-image: url(../img/svg/backgrond2.svg);
+    background-size: cover;
+    border: 0px;
+    border-radius: 0px;
+    overflow: scroll;
+
+    
+  }
+
+  .leftpart {
+  width: 100%;
+  
+ 
+  }
+  
+  .logo3{
+    display: flex;
+    position: relative;
+    top: 56px;
+    left: 50px;
+
+  }
+  .circlewrapper{
+    padding-top: 109.49px;
+    padding-left: 99.87px;
+  
+  }
+  .circle{   
+   width: 148.46px;
+   height: 148.67px;
+   
+  }
+  .lng-name{
+    width: 234.19px;
+    height: 54.35px;
+    padding-top:25.28px; 
+    padding-left:56.57px;
+    font-size: 19.5104px;
+    line-height: 23px;
+  }
+  .lng-Rank{
+    width: 234.19px;
+    height: 20.78px;
+    padding-top:7.98px; 
+    padding-left:56.57px;
+    
+    font-size: 11.1899px;
+    line-height: 13px;
+    
+  }
+  .leftlines{    
+    row-gap: 44.21px;   
+     
+    padding-left: 50px;
+    padding-right: 49.4px; 
+  }
+  .leftline{     
+    border: 0.415527px solid #FFFFFF;
+    width: 245.6px;
+  }
+  .phone { 
+    width: 234.58px;
+    height: 20.78px;
+    padding: 13.51px 4.4px 9.92px 6.7px;
+    
+    font-size: 11.1899px;
+    line-height: 13px;
+  }
+  .phone_icon{  
+   padding: 0px 21.89px 0px 0px;    
+  }
+  .h2 { 
+    /*new parameters for phone icone*/   
+    width: 14.39px;
+    height: 14.47px;   
+    
+    background-size: cover;    
+  }
+  .mail { 
+    width: 234.58px;
+    height: 20.78px;
+    padding: 13.51px 4.4px 9.92px 6.7px;
+    
+    font-size: 11.1899px;
+    line-height: 13px;
+  }
+  .mail_icon{    
+    padding: 0px 21.89px 0px 0px;    
+  }
+  .h3 {  
+    /*new parameters for mail icone*/   
+    width: 15.37px;
+    height: 11.75px;   
+    
+    background-size: cover;
+    
+  }
+  .lng-address { 
+    width: 234.58px;
+    height: 20.78px;
+    padding: 13.51px 4.4px 9.92px 21px;
+    
+    font-size: 11.1899px;
+    line-height: 13px;
+  }
+  .address_icon{     
+    padding: 0px 21.89px 0px 0px;    
+  }
+  .h4 { 
+    /*new parameters for address icone*/    
+    width: 16.72px;
+    height: 15.99px;
+    top: 15px;
+    left: 6px;    
+    background-size: cover;    
+  }
+  .social_buttons {
+    width: 245.99px;    
+    grid-column-gap:16.4px;
+    padding: 23.34px 49px 0px 50px;    
+    }
+    .social_button {
+      grid-column: span 1;
+    }
+    .social_button-thumb{
+      width: 27.33px;
+      height: 27.33px;
+    }
+    .button {    
+      padding: 24.73px 48.98px 0px 50.02px;  
+     }
+     .size_button{
+      width: 245.99px;
+      height: 52.02px;      
+     }
+     .lng-text_button{
+      padding:18.69px 15.71px 18.96px 17.35px;      
+      font-size: 17.12px;
+      line-height: 21px; 
+      height:11.38px;
+      width: 214.57px;            
+     }
+
+  .linewrapper{
+    display: none;
+  }
+  .line1{
+    display: none;
+  } 
+
+  /*mobile right part start from here*/
+  
+  .rightpart{
+    width: 100%; 
+    overflow: visible;
+   }
+   .lng-logo{
+    display: none;
+  }
+  .rectangle2{
+    display: none;
+  }
+  .rectangle_mobile {
+    display: block;
+    position: relative;
+    top: -125.57px;
+    left: 25px;
+    width: 297px;
+    height: 251px;  
+
+    
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(9.91159px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 8.25966px;
+
+  }
+    .line_mobile{ 
+      background-color:#FFFFFF ;      
+      border: 0.338379px solid #FFFFFF;
+      width: 246px;      
+      max-height: 0px;  
+    }
+   .lines_mobile{  
+     display: grid;
+     grid-template-rows: repeat(6, 1fr);
+     row-gap: 36px;
+     padding: 36px 26px 36px 25px;
+     height: 179px;
+     } 
+     .about_company_wrapper{ 
+      display: flex;
+      flex-flow: row;
+      justify-content: space-between;  
+      padding: 16px 0px 25px 0px;
+    }
+    .lng-company{ 
+      width: 60.6px;
+      height: 30px;
+      
+      font-family: 'Sofia Sans Condensed';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 9.11235px;
+      line-height: 11px;
+      
+    
+      color: #FFFFFF;
+    }
+    .lng-company_text{  
+      font-weight: 400;
+      font-size: 9.11235px;
+      line-height: 11px;
+      width: 177px;
+      height: 30px;      
+      font-family: 'Sofia Sans Condensed';
+      font-style: normal;     
+      text-align: end;    
+      color: #FFFFFF;
+    } 
+    .establish_wrapper{
+      display: flex;
+      flex-flow: row;
+      justify-content: pace-between;    
+      padding: 16px 0px 25px 0px;
+    }
+    .lng-establish{   
+      width: 118.6px;
+      height: 30px;      
+      font-family: 'Sofia Sans Condensed';
+      font-style: normal;  
+      font-weight: 600;
+      font-size: 9.11235px;
+      line-height: 11px;
+      color: #FFFFFF;
+      
+    }
+    .establish_text{  
+      font-weight: 400;
+      font-size: 9.11235px;
+      line-height: 11px;
+      width: 118.6px;
+      height: 30px;      
+      font-family: 'Sofia Sans Condensed';
+      font-style: normal;     
+      text-align: end;    
+      color: #FFFFFF;
+    }
+    
+ .shine{ 
+   top: 242.4px;  
+   left: 105px;
+   height: 150.76px;
+   width: 264.36px;
+   background-image: url(../img/svg/blesk_logo.svg);
+   }
+   .website_wrapper{   
+    padding: 16px 0px 25px 0px;
+  }
+  .lng-website1{     
+    font-weight: 600;
+    font-size: 9.11235px;
+    line-height: 11px;
+    
+  }
+  .website_text{  
+    font-weight: 400;
+    font-size: 9.11235px;
+    line-height: 11px;
+  }
+  
+  .telephone_wrapper{
+    padding: 16px 0px 25px 0px;  
+  }
+  .lng-telephone1{
+    
+    width: 118.6px;
+    height: 30px;
+    
+    font-family: 'Sofia Sans Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8.23135px;
+    line-height: 10px;
+    display: flex;
+    align-items: flex-start;
+  
+    color: #FFFFFF;
+  }
+  .telephone_text{  
+    width: 118.6px;
+    height: 30px;
+    
+    font-family: 'Sofia Sans Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8.23135px;
+    line-height: 10px;
+    text-align: end;  
+  
+    color: #FFFFFF;
+  }
+  
+  .address_wrapper{
+    padding: 16px 0px 25px 0px;  
+  }
+  .lng-second_address1{  
+    width: 55px;
+    height: 30px;
+    
+    font-family: 'Sofia Sans Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8.23135px;
+    line-height: 10px;
+    display: flex;
+    align-items: flex-start;
+  
+    color: #FFFFFF;
+  }
+  
+  .lng-second_address_text1{  
+    width: 190.71px;
+    height: 30px;
+    
+    font-family: 'Sofia Sans Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8.23135px;
+    line-height: 10px;
+    text-align: end;  
+  
+    color: #FFFFFF;
+  }
+
+} 
+   
+@media (max-width:626px) and (max-height:810px) {
+  .main{
+    flex-flow: column;
+    width:345px;
+    max-width: 100%; 
+    
+    height: 1090px;
+    max-height: 100%;
+    background-image: url(../img/svg/backgrond3.svg);
+    background-size: cover;
+    border: 0px;
+    border-radius: 0px;
+    overflow: scroll;
+
+    
+  }
+
+  .leftpart {
+  width: 100%;
+  
+ 
+  }
+  
+  .logo3{
+    display: flex;
+    position: relative;
+    top: 56px;
+    left: 50px;
+
+  }
+  .circlewrapper{
+    padding-top: 109.49px;
+    padding-left: 99.87px;
+  
+  }
+  .circle{   
+   width: 148.46px;
+   height: 148.67px;
+   
+  }
+  .lng-name{
+    width: 234.19px;
+    height: 54.35px;
+    padding-top:25.28px; 
+    padding-left:56.57px;
+    font-size: 19.5104px;
+    line-height: 23px;
+  }
+  .lng-Rank{
+    width: 234.19px;
+    height: 20.78px;
+    padding-top:7.98px; 
+    padding-left:56.57px;
+    
+    font-size: 11.1899px;
+    line-height: 13px;
+    
+  }
+  .leftlines{    
+    row-gap: 44.21px;   
+     
+    padding-left: 50px;
+    padding-right: 49.4px; 
+  }
+  .leftline{     
+    border: 0.415527px solid #FFFFFF;
+    width: 245.6px;
+  }
+  .phone { 
+    width: 234.58px;
+    height: 20.78px;
+    padding: 13.51px 4.4px 9.92px 6.7px;
+    
+    font-size: 11.1899px;
+    line-height: 13px;
+  }
+  .phone_icon{  
+   padding: 0px 21.89px 0px 0px;    
+  }
+  .h2 { 
+    /*new parameters for phone icone*/   
+    width: 14.39px;
+    height: 14.47px;   
+    
+    background-size: cover;    
+  }
+  .mail { 
+    width: 234.58px;
+    height: 20.78px;
+    padding: 13.51px 4.4px 9.92px 6.7px;
+    
+    font-size: 11.1899px;
+    line-height: 13px;
+  }
+  .mail_icon{    
+    padding: 0px 21.89px 0px 0px;    
+  }
+  .h3 {  
+    /*new parameters for mail icone*/   
+    width: 15.37px;
+    height: 11.75px;   
+    
+    background-size: cover;
+    
+  }
+  .lng-address { 
+    width: 234.58px;
+    height: 20.78px;
+    padding: 13.51px 4.4px 9.92px 21px;
+    left: 21px;
+    font-size: 11.1899px;
+    line-height: 13px;
+  }
+  .address_icon{     
+    padding: 0px 21.89px 0px 0px;    
+  }
+  .h4 { 
+    /*new parameters for address icone*/    
+    width: 16.72px;
+    height: 15.99px;
+    top: 15px; 
+    left: 6px;
+
+    background-size: cover;    
+  }
+  .social_buttons {
+    width: 245.99px;    
+    grid-column-gap:16.4px;
+    padding: 23.34px 49px 0px 50px;    
+    }
+    .social_button {
+      grid-column: span 1;
+    }
+    .social_button-thumb{
+      width: 27.33px;
+      height: 27.33px;
+    }
+    .button {        
+      padding: 24.73px 48.98px 0px 50.02px;  
+      
+     }
+     .size_button{
+      position: relative;
+      top: -150.65px;  
+      width: 245.99px;
+      height: 52.02px; 
+          
+     }
+     .lng-text_button{
+      padding:18.69px 15.71px 18.96px 17.35px;      
+      font-size: 17.12px;
+      line-height: 21px; 
+      height:11.38px;
+      width: 214.57px;            
+     }
+
+  .linewrapper{
+    display: none;
+  }
+  .line1{
+    display: none;
+  } 
+  .rectangle_mobile{
+    display: none;
+  }
+  .rectangle2{
+    display: none;
+  }
+  .shine{
+    display: none;
+  }
+  .shine2{ 
+    display: block;
+    position: relative;
+    top: 30.46px;  
+    left: 30.8px;
+    height: 150.76px;
+    width: 264.36px;
+    background-image: url(../img/svg/blesk_logo.svg);
+    }
+}  
+  
+  
+
+
+
+
